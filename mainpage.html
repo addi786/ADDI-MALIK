@@ -1,0 +1,103 @@
+
+<html>
+<head>
+  <title> Movie website </title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/dropdownlist.css">
+
+
+<script> 
+  //var a = new array();
+  var a = ["Pictures Folder\\Marqee bar\\images (2).jpg","Pictures Folder\\Marqee bar\\images (3).jpg","Pictures Folder\\Marqee bar\\images (4).jpg","Pictures Folder\\Marqee bar\\images (5).jpg","Pictures Folder\\Marqee bar\\images (6).jpg","Pictures Folder\\Marqee bar\\images (7).jpg","Pictures Folder\\Marqee bar\\images (8).jpg","Pictures Folder\\Marqee bar\\images (9).jpg" , "Pictures Folder\\Marqee bar\\images (10).jpg" , "Pictures Folder\\Marqee bar\\images (11).jpg" , "Pictures Folder\\Marqee bar\\images (1).jpg"];
+  var x=1;
+  function sliderr()
+  {
+  var b = document.getElementById("slid");
+    b.src= a[x];
+    x++;
+    if(x==11)
+    x=0;
+  }
+  setInterval(sliderr, 2000);
+  
+  
+</script>
+<style type="text/css">
+  .hover1 :hover{
+    background-color: white;
+    color: #8B0000;
+  }
+</style>
+
+</head>
+<body background="Pictures Folder\background.jpg">
+ <div>
+  <div style="background-color: #8B0000;">
+    <div class="container">
+
+   <center> <h1 style="color: white;"> Welcome to Mvoies4U.com</h1></center>
+      <img src="Pictures Folder/1st Logo.gif">
+
+      <div class="dropdownMargin">
+        <div  class="dropdown hover1" >
+         <a href="index.php"> <button class="dropbtn">Logout</button> </a>
+        </div>
+        <div  class="dropdown hover1" >
+         <a href="AboutUs.html"> <button class="dropbtn">About</button></a>
+        </div>
+        <div class="dropdown" >
+          <button class="dropbtn">TV Shows</button>
+          <div class="dropdown-content">
+            <a href="pak TV.php">Pakistani</a>
+            <a href="Ind TV.php">Indian</a>
+          </div>
+        </div>
+        <div class="dropdown hover1" >
+         <a href="LollyWood.php"> <button class="dropbtn">LollyWood</button></a>
+        </div>
+        <div class="dropdown hover1" >
+         <a href="hollyWood.php"> <button class="dropbtn">HolyWood</button></a>
+        </div>
+        <div class="dropdown hover1" >
+        <a href="BollyWood.php">  <button class="dropbtn">BollyWood</button></a>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="img-thumbnail slider">
+<center>
+ 
+  <img src="Pictures Folder\new.gif" style="margin-left:50px; margin-top: -40px; position: absolute; " height="50" >
+    <img src="Pictures Folder\Marqee bar\images (1).jpg" id="slid" height="350" width="500">
+    </center>
+</div>
+  <br><br><br>
+  <h1> Other Movies as you Like</h1>
+
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<video width="320" height="240" controls>
+    <source src="Pictures Folder\Videos\Chupan Chupai - Official Trailer - 29 December - Ahsan Khan - Neelum Muneer - A film by Mohsin Ali - YouTube.MP4" type="video/mp4">
+    </video>
+     &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<video width="320" height="240" controls>
+    <source src="Pictures Folder\Videos\Chupan Chupai - Official Trailer - 29 December - Ahsan Khan - Neelum Muneer - A film by Mohsin Ali - YouTube.MP4" type="video/mp4">
+    </video>
+     &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<video width="320" height="240" controls>
+    <source src="Pictures Folder\Videos\Chupan Chupai - Official Trailer - 29 December - Ahsan Khan - Neelum Muneer - A film by Mohsin Ali - YouTube.MP4" type="video/mp4">
+    </video>
+     &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<video width="320" height="240" controls>
+    <source src="Pictures Folder\Videos\Chupan Chupai - Official Trailer - 29 December - Ahsan Khan - Neelum Muneer - A film by Mohsin Ali - YouTube.MP4" type="video/mp4">
+    </video>
+     &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<video width="320" height="240" controls>
+    <source src="Pictures Folder\Videos\Chupan Chupai - Official Trailer - 29 December - Ahsan Khan - Neelum Muneer - A film by Mohsin Ali - YouTube.MP4" type="video/mp4">
+    </video>
+     &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<video width="320" height="240" controls>
+    <source src="Pictures Folder\Videos\Chupan Chupai - Official Trailer - 29 December - Ahsan Khan - Neelum Muneer - A film by Mohsin Ali - YouTube.MP4" type="video/mp4">
+    </video>
+     &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<video width="320" height="240" controls>
+    <source src="Pictures Folder\Videos\Chupan Chupai - Official Trailer - 29 December - Ahsan Khan - Neelum Muneer - A film by Mohsin Ali - YouTube.MP4" type="video/mp4">
+    </video>
+    
+  </div>
+</body>
+</html>
